@@ -1,0 +1,21 @@
+LineCraft End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 24 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use LineCraft on the computers you use with your own Autodesk account, for your own or your employer's design work.
+
+2. Trial, purchase and add-on. LineCraft works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Text notes, shapes, dots and line styles created with LineCraft are native Revit elements in your model. They remain yours and keep working without LineCraft, except that creating or updating LineCraft labels with LineCraft requires a valid licence.
+
+4. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts.
+
+5. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+6. Disclaimer. LineCraft is provided "as is", without warranties of any kind. You are responsible for checking drawings and documents before issue.
+
+7. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, and its total liability is limited to the amount you paid for LineCraft in the 12 months before the claim.
+
+8. Termination. The licence ends if you breach this agreement. You may stop using LineCraft at any time by uninstalling it.
+
+9. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.

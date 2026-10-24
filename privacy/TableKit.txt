@@ -1,0 +1,41 @@
+TableKit Privacy Policy
+
+Publisher: LeonS, India
+Contact: atulhritik@hotmail.com
+Effective date: 24 October 2026
+
+1. What TableKit is
+TableKit is a plug-in for Autodesk Revit that places tables made of lines and text in drawing views.
+
+2. Information we collect
+We do not collect, receive or store any of your project data, drawings, views, names, files or personal information on our servers. TableKit has no account system and no analytics.
+
+3. Information stored on your computer and in your model
+- Table content and the hidden data that link table elements to tables are stored inside your Revit model file, so they travel with the file and can be removed with the "Remove all TableKit data" button in the ? guide. If you link a table to an Excel or CSV file, the path of that file is stored in the model and the file is only read on your computer.
+- Your personal templates are stored in %AppData%\LeonS\TableKit	emplates on your computer.
+- A small encrypted licence cache and your trial start time are stored on your computer in your Windows user area (%LocalAppData%\LeonS\Licensing and the Windows registry key HKEY_CURRENT_USER\Software\LeonS	ablekit). The cache holds only a one-way hash of your Autodesk user id and the dates of the last licence checks.
+- Log files, which contain technical messages and element ids but never model content, your user id or file names, are stored in %LocalAppData%\LeonS\TableKit\logs and are deleted automatically after 14 days.
+We never read these files remotely.
+
+4. Network use
+TableKit contacts one service: the Autodesk App Store licence service (apps.autodesk.com), to check whether your signed-in Autodesk account has purchased TableKit or subscribed to its add-on. This request carries your Autodesk user id and the application identifier, as required by Autodesk, and is handled under Autodesk's own privacy statement. We do not receive the result or the request. TableKit makes no other network connections.
+
+5. Sharing and third parties
+We do not sell, share or disclose information, because we do not receive any. The only third party involved is Autodesk (licence check, section 4); Autodesk handles that request under its own privacy statement and data protection commitments.
+
+6. Children
+TableKit is professional software and is not directed at children.
+
+7. Retention, deletion and consent
+- Data inside your model stays until you delete it. Local files stay until you delete them (the list is in section 3). Log files are deleted automatically after 14 days.
+- TableKit does not ask for consent to collect personal data because it collects none. If you do not want the licence check to run, sign out of Autodesk in Revit or uninstall TableKit; the 24-hour trial and purchased features then stop working as described in the licence terms, and you can revoke this at any time by signing in again.
+- To request deletion of anything we hold about you, write to atulhritik@hotmail.com. We hold no personal data, and will confirm that in writing.
+
+8. Your choices
+You can delete all TableKit data from a model with the "Remove all TableKit data" button in the ? guide. You can delete the local files listed in section 3 at any time; TableKit will then treat the computer as new (the 24-hour trial is not restarted for a previously started trial on the same Windows user, and purchases are restored by signing in to Autodesk).
+
+9. Changes
+If this policy changes, the new text is published with the next version of TableKit on the Autodesk App Store, with a new effective date.
+
+10. Contact
+Questions about privacy: atulhritik@hotmail.com
