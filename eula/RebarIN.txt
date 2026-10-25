@@ -1,0 +1,23 @@
+RebarIN End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 24 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use RebarIN on the computers you use with your own Autodesk account, for your own or your employer's design and detailing work.
+
+2. Trial, purchase and add-on. RebarIN works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features (XLSX export, firm rules with rule-set import and export, and bar-mark renumbering schemes) only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Rebar shapes, shared parameters, schedules, drafting views, lines, text notes and filled regions created with RebarIN are native Revit elements in your model. They remain yours and keep working without RebarIN. Without a valid licence RebarIN will not create or refresh schedules.
+
+4. Engineering responsibility. RebarIN is a scheduling tool, not a design tool. It calculates cutting lengths, weights and quantities from the rebar in your Revit model using the rule set you select. The default rule values are common Indian detailing practice and must be checked by you against the standards and project specifications that apply (IS 2502, IS 456, SP 34, IS 1786 and others). The engineer of record must check quantities and lengths before use. RebarIN does not reproduce text or figures from Indian Standards.
+
+5. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts.
+
+6. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+7. Disclaimer. RebarIN is provided "as is", without warranties of any kind. You are responsible for checking schedules, quantities and drawings before issue or use for ordering, fabrication or billing.
+
+8. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, including loss arising from incorrect quantities, and its total liability is limited to the amount you paid for RebarIN in the 12 months before the claim.
+
+9. Termination. The licence ends if you breach this agreement. You may stop using RebarIN at any time by uninstalling it.
+
+10. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.
