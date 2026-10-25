@@ -1,0 +1,42 @@
+MarkWatch IN - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+Applies to the Apify Actor "India Trademark Journal Watch - MarkWatch IN".
+Public address of this text: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P1-MarkWatchIN.txt
+
+1. What the Actor processes
+- Public data from the Trade Marks Journal published by the Office of the Controller General of Patents, Designs and
+  Trade Marks: application number, filing date, mark text, class, goods or services, applicant name, the city and
+  state of the applicant, agent name (when printed), used-since date, registry office, Journal number and date.
+  The street address of an applicant is never stored or output.
+- The data you give the Actor: your watch-list (marks, classes, references), your settings and, if you set them, a
+  watch-list file address, a webhook address and a Slack webhook address.
+
+2. Where the data lives
+- Your watch-list, your results and your history stay in your own Apify account (the run's dataset and key-value
+  store, and the named key-value store "leons-markwatch-state"). The publisher does not receive your watch-list and
+  has no server that stores it.
+- The publisher keeps one shared key-value store of parsed Journals. It contains public Journal data only, never
+  customer data. Your runs only read from it.
+
+3. Retention
+- The history record in your state store is pruned after 400 days. You can delete that store, the task and the run
+  datasets yourself at any time.
+- Datasets and key-value stores of runs follow the retention rules of your Apify plan.
+
+4. Billing and processors
+- Apify bills you and acts as the processor for billing and for running the Actor. The Actor has no payment or
+  account data of its own.
+
+5. Sources, politeness and secrets
+- The Actor reads public documents only, checks robots.txt, identifies itself in its User-Agent, does not log in,
+  does not solve CAPTCHAs and does not search by person.
+- The Slack webhook address is stored as a secret input and is never written to the logs, the dataset or the reports.
+
+6. Purpose and legal note
+- The Journal is a statutory public notice. The Actor reduces the data to what is needed to compare marks and to
+  show the opposition deadline. Whether the Digital Personal Data Protection Act 2023 applies to your own use of
+  the results is for you and your counsel to decide. The results are a screening signal, not legal advice.
+
+7. Your rights and questions
+- Write to atulhritik@hotmail.com to ask about this policy or to report a data problem.

@@ -1,0 +1,38 @@
+WorkCalendar - Privacy Policy
+Publisher: LeonS
+Last updated: 24 October 2026
+
+1. Who we are
+WorkCalendar is a monday.com app published by LeonS ("we", "us"). You can contact us at atulhritik@hotmail.com.
+
+2. What the app reads
+WorkCalendar works through the monday.com API, inside your browser and in our automation blocks, using the permissions that monday.com grants to the app and to you. It reads:
+- board structure (board name, column names and types, board owners);
+- item names and the values of the Date and Timeline columns you choose for a board, and the Numbers column you choose as the target of the "Count working days" block;
+- user names (for the optional "Calendar editors" list in Settings).
+The app requests these monday.com permissions: boards:read, boards:write, me:read and users:read. boards:write is used only to write the dates and numbers that you ask the app or an automation to change.
+
+3. What the app stores
+WorkCalendar stores configuration only: your calendars (name, time zone, work week, chosen holiday packs, closures), the calendar chosen for each board and the date columns chosen for the conflict check, the list of calendar editors (monday.com user IDs), and a monthly counter of automation runs. No item names, column values or other board content are stored by the app.
+This configuration is kept in monday.com's own app storage (monday code), in the region monday.com chooses for your account. We do not run our own database and we keep no copy of your data on our own servers.
+
+4. What the app never does
+We do not sell your data. We do not use it for advertising. We do not use it to train AI models. We do not send it to third parties. The app contains no analytics or tracking code.
+
+5. Holiday data
+Public holiday data is bundled with the app. It is generated from the open "date-holidays" project (c) date-holidays contributors, licensed CC BY-SA 3.0. No personal data is involved. Dates of Islamic holidays are estimates and may differ by a day from official announcements.
+
+6. Retention and deletion
+Configuration is kept while the app is installed. If you uninstall the app, the configuration stays in monday.com's storage so that a reinstall restores your setup. To have it deleted, email atulhritik@hotmail.com from the address of your account admin, with your monday.com account name. We delete it using monday.com's storage tools within 30 days. Counters older than three months are removed automatically.
+
+7. Sub-processors
+monday.com is the only sub-processor. It hosts the app and its storage.
+
+8. Security
+Every server endpoint of the app verifies the signed token that monday.com sends. Secrets are kept in monday.com's secret store, not in source code. Logs contain only the account number, the name of the automation block, the duration and an error code. They never contain item names or column values.
+
+9. Your rights and requests
+You can ask us what configuration we hold for your account, ask for a copy, or ask for deletion. Write to atulhritik@hotmail.com. We answer within 30 days.
+
+10. Changes
+If this policy changes, the new version is posted at the same address with a new date.

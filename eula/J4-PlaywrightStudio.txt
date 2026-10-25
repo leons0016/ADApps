@@ -1,0 +1,81 @@
+END USER LICENCE AGREEMENT - Test Studio for Playwright and Studio Plus for Playwright (JetBrains IDE plugins)
+
+Vendor: LeonS
+Contact: atulhritik@hotmail.com
+Effective date: 2026-10-25
+Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/eula/J4-PlaywrightStudio.txt
+
+By installing or using Test Studio for Playwright or Studio Plus for Playwright (together, the "Software") you agree to this agreement.
+If you do not agree, do not install or use the Software.
+
+1. Definitions
+"Vendor" means LeonS. "Free Features" are the features of Test Studio for Playwright that need no licence. "Pro" means the paid
+features of Test Studio for Playwright unlocked by the Pro licence (Marketplace product code PPWSTUDIO). "Plus" means the optional paid
+features unlocked by the Studio Plus for Playwright add-on (Marketplace product code PPWSTUDIOPLUS). "Marketplace" means JetBrains
+Marketplace.
+
+2. Licence grant
+The Vendor grants you a non-exclusive, non-transferable, worldwide licence to install and run the Software in IntelliJ-based IDEs, on
+any number of devices used by you, for the licence type you hold:
+a) Free Features: free of charge, no time limit.
+b) Pro: after a one-time purchase on the Marketplace, a perpetual licence to use Pro, including the updates of the Software that the
+   Vendor publishes under the same Marketplace listing. A trial of limited length (currently 7 days) may be offered through the
+   Marketplace.
+c) Plus: a subscription licence billed monthly through the Marketplace. Plus features are available while the subscription is active.
+d) A Personal licence is for use by an individual. A Commercial licence is required when the Software is used by or on behalf of a
+   company or other organisation. Licence types and prices are shown on the Marketplace.
+Licence checks are performed by the IDE and the Marketplace licensing system. When a licence ends, Pro or Plus actions are locked, but
+your tests, settings and files are never changed or deleted by the Software because of that.
+
+3. Restrictions
+You may not (a) copy, sell, rent, lease or sublicense the Software, (b) remove copyright or licence notices, (c) circumvent, disable or
+interfere with licence checks or the Marketplace licensing, trial or subscription mechanisms, or (d) reverse engineer or decompile the
+Software except to the extent that applicable law permits despite this restriction.
+
+4. Third-party software and trademarks
+The Software starts tools that you install yourself (Node.js, Playwright, Python, pytest, pytest-playwright, browsers). Those tools have
+their own licences and are not part of the Software. Playwright is a trademark of Microsoft. The Software is independent, is not
+affiliated with or endorsed by Microsoft, and does not use the Playwright logo. The JetBrains root certificates used for licence
+verification are taken from JetBrains' sample plugin (Apache License 2.0); see META-INF/NOTICE inside the plugin.
+
+5. Your tests, servers and browsers
+The Software runs commands that you start or configure (test runs, a dev server command, the recorder, package installation). Tests and
+dev servers execute code from your project. You are responsible for the code you run, for keeping backups, and for trusting a project
+before you list or run its tests.
+
+6. Privacy
+The Software does not collect or transmit personal data. See the privacy policy at
+https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J4-PlaywrightStudio.txt
+
+7. Payments and refunds
+Purchases, payments, taxes, invoices and refunds are handled by JetBrains Marketplace under its own terms. The Vendor does not process
+payments.
+
+8. Updates and support
+The Vendor intends to publish updates for compatibility with new IDE and Playwright versions and to fix errors, but does not promise a
+particular update schedule. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+9. No warranty
+The Software is provided "as is" and "as available", without warranties of any kind, express or implied, including fitness for a
+particular purpose, merchantability and non-infringement, to the extent permitted by law.
+
+10. Limitation of liability
+To the extent permitted by law, the Vendor is not liable for indirect, incidental, special or consequential damages, loss of data,
+loss of profit or business interruption arising from the use of the Software. The Vendor's total liability for any claim is limited to
+the amount you paid for the Software in the 12 months before the claim. Nothing in this agreement limits liability that cannot be
+limited by law, or your statutory consumer rights.
+
+11. Termination
+This agreement ends automatically if you breach it. You may end it at any time by uninstalling the Software. Sections 3, 9 and 10
+continue after termination.
+
+12. Governing law
+This agreement is governed by the laws of the country in which the Vendor is established, without regard to its conflict-of-law
+rules, subject to any mandatory consumer protection law of your country of residence.
+
+13. Changes
+The Vendor may update this agreement for future versions of the Software. The version that applies to you is the one published at the
+URL above on the day you obtained the version of the Software you use.
+
+14. Contact
+atulhritik@hotmail.com

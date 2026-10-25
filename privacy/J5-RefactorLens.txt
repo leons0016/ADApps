@@ -1,0 +1,67 @@
+PRIVACY POLICY - RefactorLens and RefactorLens Plus (JetBrains IDE plugins)
+
+Vendor: LeonS
+Contact: atulhritik@hotmail.com
+Effective date: 2026-10-24
+Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J5-RefactorLens.txt
+
+1. Summary
+
+RefactorLens analyses code differences on your computer, in a separate local process. It does not collect or transmit any data. It
+does not send source code, file names, analysis results or usage information to the vendor or to any third party. It has no
+accounts, no analytics, no advertising and no telemetry. It keeps a local cache of analysis results, which you can turn off.
+
+2. What the plugins do with your data
+
+- When you open a diff of a Java, Kotlin or Python file (and, with RefactorLens Plus, when you start a change-set report), the plugin
+  reads the two versions of the file from the IDE (and, for reports, from your local git repository by running your own git
+  executable) and sends them to its analysis engine, a Java program that the plugin starts on your computer. The two programs talk
+  through the standard input and output pipes of that process. No network connection, no socket and no file outside the IDE's
+  system and log folders is used for this.
+- The engine is the open-source RefactoringMiner library and its dependencies. They are shipped inside the plugin (folder
+  lib/engine). The engine does not use the network.
+- Network access happens only through your own tools, never through the plugin itself: for example, git may contact your remote
+  when YOU run a git command in the IDE. RefactorLens itself runs no "git fetch" or "git push".
+- The plugin contains no analytics library, no crash-reporting service and no "check for updates" call.
+
+3. Data stored on your computer
+
+- Application settings in the IDE configuration folder (file options/refactorlens.xml).
+- A cache of analysis results in the IDE system folder, sub-folder "refactorlens/cache" (limit 200 MB, least recently used results are
+  removed first). It contains refactoring descriptions (identifiers and short code element text, such as method names and
+  signatures) and positions. It does not contain the full source code. You can turn the disk cache off in Settings > Tools >
+  RefactorLens; turning it off deletes the folder, and uninstalling the plugin deletes it too.
+- An engine log in the IDE log folder (file refactorlens-engine.log, rotated at 5 MB, 3 files). It contains technical messages of the
+  engine process.
+- Reports exist in memory only. Files that you export (Markdown or HTML) are written where you choose.
+Uninstalling the plugin does not delete your repositories or files.
+
+4. Licences and purchases
+
+Sales, payments, invoices, taxes and licence keys are handled by JetBrains Marketplace under JetBrains' own terms and privacy
+policy. The plugin only reads the signed licence confirmation that the IDE already holds, through the official IDE licensing API,
+and checks its signature locally. It does not send licence information anywhere. The vendor receives sales reports from JetBrains
+but does not receive your personal data from the plugin.
+
+5. Error reports
+
+If the IDE shows an error from the plugin you may choose "Report by Email". This only opens your own mail client with a draft that
+contains the plugin name and version, the stack trace and any text you typed, with operating-system user names removed from paths.
+Nothing is sent unless you send the email yourself, and you can edit or delete the draft first.
+
+6. Children
+
+The plugins are developer tools and are not directed at children.
+
+7. Your rights
+
+Because the vendor does not receive personal data from the plugins, there is no personal data to access, correct or delete. If you
+sent the vendor an email, you can ask for your email to be deleted by writing to the contact address above.
+
+8. Changes
+
+If this policy changes, the new version will be published at the URL above with a new effective date.
+
+9. Contact
+
+Questions about this policy: atulhritik@hotmail.com

@@ -1,0 +1,38 @@
+RewindLog - Privacy Policy
+Publisher: LeonS
+Last updated: 24 October 2026
+
+1. Who we are
+RewindLog is a monday.com app published by LeonS ("we", "us"). You can contact us at atulhritik@hotmail.com.
+
+2. What the app reads
+RewindLog works through the monday.com API, inside your browser, using the permissions that monday.com grants to the app and to you. It reads:
+- the activity log of the board you open it on (who changed which cell, when, and the earlier and new values);
+- the current values of the cells that those changes touched, item names, and the item's group;
+- board structure (column names and types, status labels and dropdown options, groups, board owners);
+- user names and profile pictures of the people who appear in the activity log.
+The app requests these monday.com permissions: boards:read, boards:write, me:read and users:read. boards:write is used only to write back the cells, group moves and item names that you confirm in a restore. Restores are written with your own permissions, so monday.com applies the same column and board rules as for any edit you make, and the change shows in the activity log under your name.
+
+3. What the app stores
+RewindLog stores, per board: your settings (how changes are grouped, whether members may restore their own changes), and a record of each restore you run. A restore record contains item ids, column ids, the value that was written, the value that was replaced just before (so the restore can be undone), the status of each cell, the time and the id of the user who ran it. Item names are not part of the record.
+This data is kept in monday.com's own app storage (monday code), in the region monday.com chooses for your account. We do not run our own database and we keep no copy of your data on our own servers. The activity log itself is not stored: it is read, shown and discarded when you close the view.
+Activity data can contain business content, and restore records contain copies of cell values. If you export a diff or a report as a CSV file, that file is created in your browser and saved on your device.
+
+4. What the app never does
+We do not sell your data. We do not use it for advertising. We do not use it to train AI models. We do not send it to third parties. The app contains no analytics or tracking code.
+
+5. Retention and deletion
+Restore records are kept for up to 90 days (up to 365 days on the Business plan), and only the newest runs your plan allows are kept. Older records are removed automatically when a new restore is saved. You can delete all restore records of a board at any time in Settings, Restore log, "Delete all run records". Settings stay while the app is installed.
+If you uninstall the app, the stored data stays in monday.com's storage so that a reinstall restores your setup. To have it deleted, email atulhritik@hotmail.com from the address of your account admin, with your monday.com account name. We delete it using monday.com's storage tools within 30 days.
+
+6. Sub-processors
+monday.com is the only sub-processor. It hosts the app and its storage.
+
+7. Security
+Every server endpoint of the app that accepts calls verifies the signed token that monday.com sends. Secrets are kept in monday.com's secret store, not in source code. Logs contain only the account number and the event type. They never contain item names, activity or column values.
+
+8. Your rights and requests
+You can ask us what the app holds for your account, ask for a copy, or ask for deletion. Write to atulhritik@hotmail.com. We answer within 30 days.
+
+9. Changes
+If this policy changes, the new version is posted at the same address with a new date.

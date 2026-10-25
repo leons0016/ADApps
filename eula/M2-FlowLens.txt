@@ -1,0 +1,41 @@
+FlowLens - End User Licence Agreement
+Publisher: LeonS
+Last updated: 25 October 2026
+
+By installing or using FlowLens ("the App") you agree to this agreement. If you install the App for an organisation, you confirm that you may bind that organisation.
+
+1. Licence
+LeonS grants you a limited, non-exclusive, non-transferable, revocable licence to use the App with your monday.com account for your internal business purposes, for as long as the App is installed and any fees due are paid.
+
+2. Restrictions
+You may not copy, resell, sublicense or rent the App, reverse engineer it except where the law allows this, or use it to break the law or the monday.com terms.
+
+3. Plans, trial and fees
+The App has a Free plan and paid plans. Prices, trial length and billing periods are shown on the App's monday.com marketplace listing and in monday.com's plan selection page. Billing, invoicing, taxes and refunds are handled by monday.com under its marketplace terms. Subscriptions renew until cancelled. A cancellation within 30 days of the first purchase is refunded by monday.com automatically, as described in monday.com's billing rules. If a plan ends or is downgraded, your saved setup and history are kept, and the features and limits of the lower plan apply.
+
+4. Your data
+You keep all rights in your monday.com data. The App processes it only to provide its features, as described in the Privacy Policy (https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/M2-FlowLens.txt).
+
+5. Accuracy of metrics and forecasts
+Cycle time, throughput, cumulative flow, aging and forecast figures are calculated from the activity log that monday.com provides and from the setup you choose. They depend on how far back your monday.com plan keeps its activity log, on how you map statuses, and on the quality of the underlying data. Forecasts are statistical simulations of your past throughput. They are not promises. You are responsible for decisions you make with these figures.
+
+6. Third-party components
+The App includes open-source software under its own licences, including Apache ECharts (Apache-2.0).
+
+7. Support
+Support is available at atulhritik@hotmail.com. We aim to reply within 2 business days.
+
+8. No warranty
+The App is provided "as is" and "as available", without warranties of any kind, including merchantability, fitness for a particular purpose and non-infringement. We do not promise that the App will be uninterrupted or error free, or that it will keep working if monday.com changes its platform or API.
+
+9. Limit of liability
+To the extent the law allows, LeonS is not liable for indirect, incidental, special or consequential damages, loss of profit, loss of data or business interruption. Total liability for any claim is limited to the fees you paid for the App in the 12 months before the claim.
+
+10. Termination
+You may stop using the App at any time by uninstalling it. We may suspend access if you break this agreement. Sections 4 to 9 survive termination.
+
+11. Changes
+We may update this agreement. The new version is posted at the same address with a new date. Continued use after a change means you accept it.
+
+12. Contact
+atulhritik@hotmail.com

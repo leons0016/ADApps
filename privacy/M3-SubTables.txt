@@ -1,0 +1,36 @@
+SubTables - Privacy Policy
+Publisher: LeonS
+Last updated: 24 October 2026
+
+1. Who we are
+SubTables is a monday.com app published by LeonS ("we", "us"). You can contact us at atulhritik@hotmail.com.
+
+2. What the app reads
+SubTables works through the monday.com API, inside your browser and in our automation blocks, using the permissions that monday.com grants to the app and to you. It reads:
+- board structure (board names, column names, types and settings such as status labels, board owners, groups, workspaces and folders);
+- the connect-boards column of the item you have open, and the items linked in it, with the values of the columns you chose to show in a sub-table;
+- the Numbers, Date or Text column of the parent item that you chose as the target of a rollup;
+- user names (for the people picker).
+The app requests these monday.com permissions: boards:read, boards:write, me:read, users:read and workspaces:read. boards:write is used to create, edit, duplicate and archive the rows you ask for, to write rollup results into the parent columns you choose, and, only when you run the wizard, to create a board and columns.
+
+3. What the app stores
+SubTables stores configuration only: for each board where you use it, the list of sub-tables (name, linked board and column ids, shown columns, sort, rollup settings) and the template rows that you type in the template editor, plus a per-user layout preference. Your row data stays in your monday.com boards; the app keeps no copy of it. No item names or column values from your boards are stored by the app, except the template rows you create yourself.
+This configuration is kept in monday.com's own app storage (monday code), in the region monday.com chooses for your account. We do not run our own database and we keep no copy of your data on our own servers.
+
+4. What the app never does
+We do not sell your data. We do not use it for advertising. We do not use it to train AI models. We do not send it to third parties. The app contains no analytics or tracking code.
+
+5. Retention and deletion
+Configuration is kept while the app is installed. If you uninstall the app, the configuration stays in monday.com's storage so that a reinstall restores your setup. Your rows are normal monday.com items and are never deleted by uninstalling the app. To have the configuration deleted, email atulhritik@hotmail.com from the address of your account admin, with your monday.com account name. We delete it using monday.com's storage tools within 30 days.
+
+6. Sub-processors
+monday.com is the only sub-processor. It hosts the app and its storage.
+
+7. Security
+Every server endpoint of the app verifies the signed token that monday.com sends. Secrets are kept in monday.com's secret store, not in source code. Logs contain only the account number, the name of the automation block, the duration and an error code. They never contain item names or column values.
+
+8. Your rights and requests
+You can ask us what configuration we hold for your account, ask for a copy, or ask for deletion. Write to atulhritik@hotmail.com. We answer within 30 days.
+
+9. Changes
+If this policy changes, the new version is posted at the same address with a new date.

@@ -1,0 +1,26 @@
+NSQ Watch - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+
+This text is meant to be published at
+https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P4-NSQWatch.txt
+
+1. What NSQ Watch is
+NSQ Watch is an Apify Actor. It runs inside your own Apify account, reads public drug quality alerts published by the Central Drugs Standard Control Organization (CDSCO), and compares them with the stock list you give it.
+
+2. What data is processed
+- Your stock list (product names, batch numbers, manufacturers, optional expiry, SKU, location and quantity). It is read from the input or from the CSV link you provide, held in memory during the run, and written only to your own Apify account: the matches in your dataset, the REPORT, QUARANTINE.csv and OUTPUT records. It is never written to the run log.
+- A state record in a key-value store named leons-nsqwatch-state in your account. It holds hashes and ids of items already delivered, not product or batch text.
+- Public alert data from CDSCO (product, batch, manufacturer, laboratory). It concerns products and companies, not individuals.
+
+3. What the publisher receives
+The publisher does not receive your stock list, your results or your input, and operates no server for this Actor. Apify, as the platform, processes your account data under its own terms. If you set a webhook or Slack address, the run summary and matches are sent to that address, which you control.
+
+4. Shared cache
+If the publisher enables the optional shared cache, it contains only the public alert rows read from CDSCO and never any customer data.
+
+5. Deletion
+Delete the key-value store leons-nsqwatch-state, your datasets and your tasks in your Apify account at any time.
+
+6. Contact
+atulhritik@hotmail.com

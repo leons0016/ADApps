@@ -1,0 +1,41 @@
+RewindLog - End User Licence Agreement
+Publisher: LeonS
+Last updated: 24 October 2026
+
+By installing or using RewindLog ("the App") you agree to this agreement. If you install the App for an organisation, you confirm that you may bind that organisation.
+
+1. Licence
+LeonS grants you a limited, non-exclusive, non-transferable, revocable licence to use the App with your monday.com account for your internal business purposes, for as long as the App is installed and any fees due are paid.
+
+2. Restrictions
+You may not copy, resell, sublicense or rent the App, reverse engineer it except where the law allows this, or use it to break the law or the monday.com terms.
+
+3. Plans, trial and fees
+The App has a Free plan and paid plans. Prices, trial length and billing periods are shown on the App's monday.com marketplace listing and in monday.com's plan selection page. Billing, invoicing, taxes and refunds are handled by monday.com under its marketplace terms. Subscriptions renew until cancelled. A cancellation within 30 days of the first purchase is refunded by monday.com automatically, as described in monday.com's billing rules. If a plan ends or is downgraded, your settings and restore records are kept, and the limits of the lower plan apply. A restore that was started under a higher plan is allowed to finish, and earlier restores can still be undone.
+
+4. Your data
+You keep all rights in your monday.com data. The App processes it only to provide its features, as described in the Privacy Policy (https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/M5-RewindLog.txt).
+
+5. Restoring data - your responsibility
+The App writes values back to your board when you confirm a restore. Before you confirm, check the Before, After and Now values shown. How the App reads monday.com's activity log depends on information that monday.com does not fully document, and the activity log can be incomplete or limited by your monday.com plan. The App checks every cell again just before writing and skips cells that changed, but it cannot promise that a restore returns a board to exactly the state it had at an earlier time. Restoring values may trigger the automations and integrations of your board. Items that were deleted, column types the App does not support, and computed columns cannot be restored. You are responsible for deciding which changes to restore and for keeping your own backups where you need them.
+
+6. Third-party components
+The App includes open-source software under its own licences.
+
+7. Support
+Support is available at atulhritik@hotmail.com. We aim to reply within 2 business days.
+
+8. No warranty
+The App is provided "as is" and "as available", without warranties of any kind, including merchantability, fitness for a particular purpose and non-infringement. We do not promise that the App will be uninterrupted or error free, or that restores will complete, because they depend on monday.com's platform and its API limits.
+
+9. Limit of liability
+To the extent the law allows, LeonS is not liable for indirect, incidental, special or consequential damages, loss of profit, loss of data or business interruption. Total liability for any claim is limited to the fees you paid for the App in the 12 months before the claim.
+
+10. Termination
+You may stop using the App at any time by uninstalling it. We may suspend access if you break this agreement. Sections 4 to 9 survive termination.
+
+11. Changes
+We may update this agreement. The new version is posted at the same address with a new date. Continued use after a change means you accept it.
+
+12. Contact
+atulhritik@hotmail.com

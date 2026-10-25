@@ -1,0 +1,39 @@
+SmartCard - Privacy Policy
+Publisher: LeonS
+Last updated: 24 October 2026
+
+1. Who we are
+SmartCard is a monday.com app published by LeonS ("we", "us"). You can contact us at atulhritik@hotmail.com.
+
+2. What the app reads
+SmartCard works through the monday.com API, inside your browser and in one optional automation block, using the permissions that monday.com grants to the app and to you. It reads:
+- board structure (board name, groups, column names, types and settings, board owners);
+- monday.com data validation settings of a board (required columns and rules);
+- the item name and the values of the columns that you use in a layout or in a queue, for the item you are looking at or for the items of a queue;
+- your own user details and teams, the list of teams, and user names (for the pickers in the layout builder).
+The app requests these monday.com permissions: boards:read, boards:write, me:read, users:read and teams:read. boards:write is used only to write the value you change in the card and the item name when you edit it.
+
+3. What the app stores
+SmartCard stores configuration only: layouts (sections, fields, rules, help text), which teams or people see which layout, queue presets, the list of layout editors (monday.com user IDs), for each user the sections he or she collapsed and the last queue chosen, and a flag that records that the first-use message was sent. No item names, column values or other board content are stored by the app.
+This configuration is kept in monday.com's own app storage (monday code), in the region monday.com chooses for your account. For a few minutes the app keeps board structure in the memory of your browser tab to reduce API calls; it is not written anywhere. We do not run our own database and we keep no copy of your data on our own servers.
+
+4. What the app never does
+We do not sell your data. We do not use it for advertising. We do not use it to train AI models. We do not send it to third parties. The app contains no analytics or tracking code.
+
+5. Hiding fields is not access control
+SmartCard hides fields in its own card only. The data stays visible on the board to anyone with access to the board. Use monday.com permissions to restrict data.
+
+6. Retention and deletion
+Configuration is kept while the app is installed. If you uninstall the app, the configuration stays in monday.com's storage so that a reinstall restores your setup. To have it deleted, email atulhritik@hotmail.com from the address of your account admin, with your monday.com account name. We delete it using monday.com's storage tools within 30 days.
+
+7. Sub-processors
+monday.com is the only sub-processor. It hosts the app and its storage.
+
+8. Security
+Every server endpoint of the app verifies the signed token that monday.com sends. Secrets are kept in monday.com's secret store, not in source code. Logs contain only the account number, the name of the automation block, the duration and an error code. They never contain item names, column titles or values.
+
+9. Your rights and requests
+You can ask us what configuration we hold for your account, ask for a copy, or ask for deletion. Write to atulhritik@hotmail.com. We answer within 30 days.
+
+10. Changes
+If this policy changes, the new version is posted at the same address with a new date.

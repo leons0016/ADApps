@@ -1,0 +1,77 @@
+END USER LICENCE AGREEMENT - LaunchDeck and LaunchDeck Plus (JetBrains IDE plugins)
+
+Vendor: LeonS
+Contact: atulhritik@hotmail.com
+Effective date: 2026-10-25
+Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/eula/J2-LaunchDeck.txt
+
+By installing or using LaunchDeck or LaunchDeck Plus (together, the "Software") you agree to this agreement. If you do not agree, do not
+install or use the Software.
+
+1. Definitions
+"Vendor" means LeonS. "Free Features" are the features of LaunchDeck that need no licence. "Pro" means the paid features of LaunchDeck unlocked
+by the LaunchDeck Pro licence (Marketplace product code PLAUNCHDECK). "Plus" means the optional paid features unlocked by the LaunchDeck Plus
+add-on (Marketplace product code PLAUNCHDECKPLUS). "Marketplace" means JetBrains Marketplace.
+
+2. Licence grant
+The Vendor grants you a non-exclusive, non-transferable, worldwide licence to install and run the Software in IntelliJ-based IDEs, on any number
+of devices used by you, for the licence type you hold:
+a) Free Features: free of charge, no time limit.
+b) Pro: after a one-time purchase on the Marketplace, a perpetual licence to use Pro, including the updates of the Software that the Vendor
+   publishes under the same Marketplace listing. A trial of limited length (currently 7 days) may be offered through the Marketplace.
+c) Plus: a subscription licence billed monthly through the Marketplace. Plus features are available while the subscription is active.
+d) A Personal licence is for use by an individual. A Commercial licence is required when the Software is used by or on behalf of a company or
+   other organisation. Licence types and prices are shown on the Marketplace.
+Licence checks are performed by the IDE and the Marketplace licensing system. When a licence ends, Pro or Plus actions are locked, but your
+deck file, your run configurations and the services that are already running are never changed, stopped or deleted by the Software because of that.
+
+3. Restrictions
+You may not (a) copy, sell, rent, lease or sublicense the Software, (b) remove copyright or licence notices, (c) circumvent, disable or
+interfere with licence checks or the Marketplace licensing, trial or subscription mechanisms, or (d) reverse engineer or decompile the Software
+except to the extent that applicable law permits despite this restriction.
+
+4. Third-party components
+The Software includes snakeyaml-engine (Apache License 2.0). The licence text and notices are in the file META-INF/NOTICE of the plugin. The
+JetBrains root certificates used for licence verification are taken from JetBrains' sample plugin (Apache License 2.0).
+
+5. Commands that you start
+The Software starts the programs and commands that you write in a deck file or in a Command Line run configuration, with the permissions of your
+IDE user. It does not start anything by itself and asks for confirmation when a deck file is new or has changed. You are responsible for
+checking the commands shown before you confirm, for the content of deck files you receive from others, and for keeping backups of your work.
+The Software stops processes it started when you ask it to, when the project closes (if that option is on), and when a stop timeout is reached.
+
+6. Privacy
+The Software does not collect or transmit personal data. See the privacy policy at
+https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J2-LaunchDeck.txt
+
+7. Payments and refunds
+Purchases, payments, taxes, invoices and refunds are handled by JetBrains Marketplace under its own terms. The Vendor does not process payments.
+
+8. Updates and support
+The Vendor intends to publish updates for compatibility with new IDE versions and to fix errors, but does not promise a particular update
+schedule. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+9. No warranty
+The Software is provided "as is" and "as available", without warranties of any kind, express or implied, including fitness for a particular
+purpose, merchantability and non-infringement, to the extent permitted by law.
+
+10. Limitation of liability
+To the extent permitted by law, the Vendor is not liable for indirect, incidental, special or consequential damages, loss of data, loss of
+profit or business interruption arising from the use of the Software. The Vendor's total liability for any claim is limited to the amount you
+paid for the Software in the 12 months before the claim. Nothing in this agreement limits liability that cannot be limited by law, or your
+statutory consumer rights.
+
+11. Termination
+This agreement ends automatically if you breach it. You may end it at any time by uninstalling the Software. Sections 3, 9 and 10 continue after
+termination.
+
+12. Governing law
+This agreement is governed by the laws of the country in which the Vendor is established, without regard to its conflict-of-law rules, subject
+to any mandatory consumer protection law of your country of residence.
+
+13. Changes
+The Vendor may update this agreement for future versions of the Software. The version that applies to you is the one published at the URL above
+on the day you obtained the version of the Software you use.
+
+14. Contact
+atulhritik@hotmail.com

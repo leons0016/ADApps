@@ -1,0 +1,39 @@
+FlowLens - Privacy Policy
+Publisher: LeonS
+Last updated: 25 October 2026
+
+1. Who we are
+FlowLens is a monday.com app published by LeonS ("we", "us"). You can contact us at atulhritik@hotmail.com.
+
+2. What the app reads
+FlowLens works inside your browser through the monday.com API, using the permissions that monday.com grants to the app and to you. It reads:
+- board structure (board name, group names, column names and types, board owners, the labels of the status column you choose);
+- the activity log of the board: changes of the status column you choose, and item creation, deletion, archive and move events;
+- the item list you can see (item names, groups, the status and one People column, creation time), to show charts and to hide anything you cannot see;
+- user names and profile pictures of people who changed a status or are assigned to items, to label the item view and the "At risk" list.
+The app requests these monday.com permissions: boards:read, me:read and users:read. It requests no write permission and never changes your boards.
+
+3. What the app stores
+FlowLens stores in monday.com's own app storage: the workflow setup of each board (status column, stage of each status label, WIP limits, rules), a compact history of status changes (item number, time, status label numbers and the number of the user who made the change), item creation, deletion and archive times, the list of boards set up with FlowLens, and each user's chart filters. Item names, column values other than status label numbers, and update texts are not stored.
+This data is kept in monday.com's app storage, in the region monday.com chooses for your account. We do not run our own database and keep no copy of your data on our own servers. The app has no server side processing of your board data: all calculations run in your browser.
+
+4. What the app never does
+We do not sell your data. We do not use it for advertising. We do not use it to train AI models. We do not send it to third parties. The app contains no analytics or tracking code.
+
+5. Who can see what
+The saved history is shared by the people who use FlowLens on a board. Before drawing anything, FlowLens compares it with the items you can read yourself and hides the rest. Archived items are shown only to account admins.
+
+6. Retention and deletion
+Data is kept while the app is installed. In Settings, board owners and admins can use "Delete saved history" to remove the saved history of a board. If you uninstall the app, the stored data stays in monday.com's storage so that a reinstall restores your setup. To have it deleted, email atulhritik@hotmail.com from the address of your account admin, with your monday.com account name. We delete it using monday.com's storage tools within 30 days.
+
+7. Sub-processors
+monday.com is the only sub-processor. It hosts the app and its storage.
+
+8. Security
+Every server endpoint of the app that does anything other than serve public files verifies the signed token that monday.com sends. Secrets are kept in monday.com's secret store, not in source code. Server logs contain only the account number, the event type and the plan name of subscription events. They never contain item names or board content.
+
+9. Your rights and requests
+You can ask us what data we hold for your account, ask for a copy, or ask for deletion. Write to atulhritik@hotmail.com. We answer within 30 days.
+
+10. Changes
+If this policy changes, the new version is posted at the same address with a new date.

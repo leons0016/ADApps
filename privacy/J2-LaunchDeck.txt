@@ -1,0 +1,63 @@
+PRIVACY POLICY - LaunchDeck and LaunchDeck Plus (JetBrains IDE plugins)
+
+Vendor: LeonS
+Contact: atulhritik@hotmail.com
+Effective date: 2026-10-25
+Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J2-LaunchDeck.txt
+
+1. Summary
+
+LaunchDeck runs entirely inside your JetBrains IDE. It does not collect, store or transmit personal data or source code to the vendor or to
+any third party. It has no accounts, no analytics, no advertising and no telemetry.
+
+2. What the plugins do with your data
+
+- LaunchDeck reads files in your project (the deck file .launchdeck.yaml and the .env files it names) only to start the processes you ask
+  for. Values from .env files and the deck file are passed to those processes and are never copied into IDE settings or into LaunchDeck's
+  own log lines (values of names such as secret, token, password and key are masked there).
+- LaunchDeck starts programs on your computer that you describe in your deck file or in a Command Line run configuration (for example shell
+  commands, npm scripts, Gradle tasks, Docker Compose services, other run configurations, and the direnv tool if you switch it on). It never
+  starts anything by itself. When a deck file is new or has changed, it first shows every command it can run and asks you to confirm. It
+  also respects the IDE's trusted project setting.
+- Network access happens only in two cases: (a) readiness checks of type http that you write in your deck file (the default target is your own
+  computer; a log line is written if you point a check at another host), and (b) whatever the programs you start do on their own. The plugin
+  itself contains no analytics library, no crash-reporting service and no "check for updates" call.
+
+3. Data stored on your computer
+
+- Application settings in the IDE configuration folder (file options/launchdeck.xml): timeouts and two on/off options.
+- Per-project settings in the project's workspace file (.idea/workspace.xml): the deck file path, the last selected deck and profile, the
+  splitter position and a list of SHA-256 fingerprints of deck files you have approved. The fingerprints cannot be turned back into the file.
+- Run state (process handles, statuses, console output) is kept in memory only and disappears when the IDE closes.
+- Command Line run configurations are stored by the IDE in your project (.idea/workspace.xml or .run/*.run.xml).
+Uninstalling the plugin does not delete your deck file or your run configuration files.
+
+4. Licences and purchases
+
+Sales, payments, invoices, taxes and licence keys are handled by JetBrains Marketplace under JetBrains' own terms and privacy policy. The plugin
+only reads the signed licence confirmation that the IDE already holds, through the official IDE licensing API, and checks its signature locally.
+It does not send licence information anywhere. The vendor receives sales reports from JetBrains but does not receive your personal data from
+the plugin.
+
+5. Error reports
+
+If the IDE shows an error from the plugin you may choose "Report by Email". This only opens your own mail client with a draft that contains the
+plugin name and version, the stack trace and any text you typed, with operating-system user names removed from paths. Nothing is sent unless you
+send the email yourself, and you can edit or delete the draft first.
+
+6. Children
+
+The plugins are developer tools and are not directed at children.
+
+7. Your rights
+
+Because the vendor does not receive personal data from the plugins, there is no personal data to access, correct or delete. If you sent the
+vendor an email, you can ask for your email to be deleted by writing to the contact address above.
+
+8. Changes
+
+If this policy changes, the new version will be published at the URL above with a new effective date.
+
+9. Contact
+
+Questions about this policy: atulhritik@hotmail.com
