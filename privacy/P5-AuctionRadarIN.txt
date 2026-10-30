@@ -4,16 +4,16 @@ Contact: atulhritik@hotmail.com
 Hosted at: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P5-AuctionRadarIN.txt
 
 1. What the Actor does
-AuctionRadar IN reads public auction notices published by the Insolvency and Bankruptcy Board of India (ibbi.gov.in) and the State Bank of India (sbi.bank.in) and returns them as structured rows to the Apify account that runs it.
+AuctionRadar IN reads public auction notices published by the Insolvency and Bankruptcy Board of India (ibbi.gov.in) and returns them as structured rows to the Apify account that runs it.
 
 2. Data the Actor keeps
-Per auction: source, notice id, company or firm name of the borrower or corporate debtor, name of the insolvency professional (a public professional role), bank and branch, asset description, property address, city, district, state, pincode, area, reserve price, EMD, bid increment, auction and inspection dates, possession type, business e-mail address or landline of the bank branch or professional's office, links to the notice.
+Per auction: source, notice id, company or firm name of the borrower or corporate debtor, name of the insolvency professional (a public professional role), asset description and property address (only where the debtor is recognised as a company or firm and the asset is not residential, otherwise withheld), city, district, state, pincode, area, reserve price, EMD, bid increment, auction and inspection dates, possession type, business e-mail address or landline of the professional's office, links to the notice.
 
 3. Individuals
-Borrower names that look like individuals are replaced with "[Individual borrower]" by default. The user can switch this off. Guarantor and co-borrower names, mobile telephone numbers, personal e-mail addresses and borrower residence addresses are never output or stored.
+Borrower names that look like individuals are always replaced with "[Individual borrower]"; this cannot be switched off. Guarantor and co-borrower names, residence phrases ("R/o ..."), mobile telephone numbers and personal e-mail addresses are removed where recognised. The street-level property description and address are withheld unless the debtor is recognised as a company or firm and the asset is not residential. All of this is heuristic pattern matching on free text: it reduces but cannot rule out personal data in the output.
 
 4. Where data lives
-The results, the memory of already delivered auctions (a hash, a timestamp and the auction date and reserve price per auction) and the reports live in the user's own Apify account. The publisher runs no server and receives no customer data. The publisher may run a shared cache of parsed public notices in the publisher's own Apify account; it never contains individual borrower names.
+The results, the memory of already delivered auctions (a hash, a timestamp and the auction date and reserve price per auction) and the reports live in the user's own Apify account. The publisher runs no server and receives no customer data. The publisher may run a shared cache of parsed public notices in the publisher's own Apify account; it is off by default and never contains individual borrower names or withheld property detail.
 
 5. Retention
 Memory entries are removed 60 days after the auction date. Cache entries are kept for auctions dated within the last 30 days.
@@ -22,7 +22,7 @@ Memory entries are removed 60 days after the auction date. Cache entries are kep
 Write to atulhritik@hotmail.com with the link to the notice. The publisher removes the auction from the shared cache within 7 days.
 
 7. Not advice
-Information from public auction notices. Verify all details with the bank or insolvency professional and the official notice before bidding. Not investment or legal advice.
+Information from public auction notices; verify with the original notice. Verify all details with the insolvency professional and the official notice before bidding. Not affiliated with or endorsed by IBBI. Not investment or legal advice.
 
 8. Changes
 Changes to this policy are published at the address above.
