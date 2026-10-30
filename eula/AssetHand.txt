@@ -1,0 +1,23 @@
+AssetHand End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 30 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use AssetHand on the computers you use with your own Autodesk account, for your own or your employer's design, coordination and information-management work.
+
+2. Trial, purchase and add-on. AssetHand works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features (client mapping templates, delta export and the export audit log) only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Workbooks, CSV files and template files you export, and the shared parameters, set-up and templates stored in your model, belong to you. Exported files keep working without AssetHand. Without a valid licence AssetHand will not build or export workbooks.
+
+4. Information-management responsibility. AssetHand prepares COBie data from the information in your Revit model and checks it against rules that follow the published COBie 2.4 layout. It does not guarantee that a workbook satisfies the requirements of any client, standard, contract or exchange tool. The closed value lists and required columns can differ between versions of COBie and between clients. You are responsible for checking the workbook, its contacts, classifications, dates and quantities against the requirements that apply before you issue it. AssetHand does not reproduce text from standards or classification tables.
+
+5. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts. The open-source library bundled for writing XLSX files (ClosedXML, MIT licence, with its own open-source dependencies) remains under its own licence.
+
+6. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+7. Disclaimer. AssetHand is provided "as is", without warranties of any kind. You are responsible for checking exported data before issue or use for handover, operation, maintenance or billing.
+
+8. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, including loss arising from incorrect or rejected handover data, and its total liability is limited to the amount you paid for AssetHand in the 12 months before the claim.
+
+9. Termination. The licence ends if you breach this agreement. You may stop using AssetHand at any time by uninstalling it.
+
+10. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.

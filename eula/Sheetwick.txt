@@ -1,0 +1,23 @@
+Sheetwick End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 30 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use Sheetwick on the computers you use with your own Autodesk account, for your own or your employer's design, documentation and document-control work.
+
+2. Trial, purchase and add-on. Sheetwick works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features (transmittal and issue sheet generation with PDF export, comparing issues, and the preset library with template files) only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Recorded issues, register layouts and external drawings are stored in your Revit model. Drafting views, lines, text notes and filled regions created with Sheetwick are native Revit elements in your model. Files you export (Excel, CSV, PDF, template files) are yours. They remain yours and keep working without Sheetwick. Without a valid licence Sheetwick will not record issues or create or refresh registers.
+
+4. Your responsibility for the record. Sheetwick keeps a record of what you tell it was issued and of the sheet data in the model at the moment you record an issue. It does not check drawing content, decide what may be issued, or replace your document-control procedure. The layouts and presets (for example ISO 19650 and US drawing log layouts) are starting points and are not a statement of any standard; you must check them against your BIM execution plan, QA manual and contract. PDF files are made from the sheets as they are in the model when you export. You must check every register, transmittal and drawing before it is issued.
+
+5. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts.
+
+6. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+7. Disclaimer. Sheetwick is provided "as is", without warranties of any kind. You are responsible for checking registers, transmittals and drawings before issue or contractual use.
+
+8. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, including loss arising from an incorrect or incomplete register, a missed issue or a contractual dispute, and its total liability is limited to the amount you paid for Sheetwick in the 12 months before the claim.
+
+9. Termination. The licence ends if you breach this agreement. You may stop using Sheetwick at any time by uninstalling it.
+
+10. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.

@@ -1,0 +1,23 @@
+Normwise End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 30 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use Normwise on the computers you use with your own Autodesk account, for your own or your employer's design, documentation and BIM-management work.
+
+2. Trial, purchase and add-on. Normwise works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features (compare and push) permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features (compliance report, CSV export of the difference and re-check reminders) only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Reports and CSV files you save, and the view templates, filters, types and other items copied into your projects, belong to you and keep working without Normwise. Without a valid licence Normwise will not compare or push.
+
+4. Changes to your projects. A push changes the open project: it creates, updates, replaces and renames standards items that you select. A dry run (the default) changes nothing. Normwise works in one Revit transaction and checks the result before it is kept, but it cannot foresee every project. You are responsible for trying a push on a copy of an important project, for having a backup, and for checking the result. Items that only the project has are never deleted by Normwise.
+
+5. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts.
+
+6. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+7. Disclaimer. Normwise is provided "as is", without warranties of any kind. It compares and copies project standards through the Revit API; Revit may behave differently between versions and projects. Normwise does not guarantee that a project complies with any company, client or national standard.
+
+8. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, including loss of data or project time arising from a push, and its total liability is limited to the amount you paid for Normwise in the 12 months before the claim.
+
+9. Termination. The licence ends if you breach this agreement. You may stop using Normwise at any time by uninstalling it.
+
+10. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.
