@@ -1,0 +1,10 @@
+DocA11y - End User Terms
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+
+1. DocA11y runs automated accessibility checks on PDF, Word, PowerPoint and Excel files. It is a screening aid. It cannot certify conformance with WCAG, PDF/UA, the ADA, the European Accessibility Act or any other standard or law, and its results are not legal advice. Manual review is required.
+2. The results can contain missed problems and wrong findings. The scope labels and priority scores are hints based on dates and paths. You are responsible for the decisions you take.
+3. You choose the websites and documents to check. You must own them or have permission to audit them, and you are responsible for the crawl and for following the terms of those sites. Switching off the robots.txt setting is allowed only for a site you own or have permission to audit.
+4. The Actor is provided as is, without warranty of availability, accuracy or completeness. DocA11y is not affiliated with or endorsed by veraPDF, the W3C, the US Department of Justice or any website you audit.
+5. You pay for events as shown on the Actor page. The publisher is not liable for losses arising from use of the Actor beyond the amount you paid for the run concerned, to the extent the law allows.
+6. Questions: atulhritik@hotmail.com

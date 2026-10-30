@@ -1,0 +1,34 @@
+DocA11y - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+Applies to the Apify Actor "PDF & Office Document Accessibility Auditor - DocA11y".
+
+This text is published at
+https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P2-DocA11yCrawler.txt
+
+1. What DocA11y is
+DocA11y is an Apify Actor. It runs inside your own Apify account, visits the website addresses or document links you give it, and checks the PDF, Word, PowerPoint and Excel files it finds for accessibility problems.
+
+2. What data is processed
+- Your input: start addresses, document links, filters, dates and, if you set them, a webhook address and a Slack webhook address (the Slack address is stored as a secret and is never written to logs, datasets or reports).
+- The pages and documents of the websites you chose. Documents are downloaded into temporary storage of the run, checked, and deleted after each audit. Document text is not stored and is not written to the results.
+- The results written to your own Apify account: document address, linking pages, type, size, dates from the file or the web server, page count, document title and language, hashes, the list of failed checks with generic messages and page numbers, and a priority score. A document title can contain a person's name if the document's author put one there; the author and creator fields of a document are not read into the results.
+- A history record in a key-value store named leons-doca11y-state in your account. It holds document addresses, hashes, ETags, dates and sizes of documents already audited, not document content.
+
+3. What the publisher receives
+The publisher does not receive your input, your results, your documents or your history, and operates no server for this Actor. Apify, as the platform, processes your account data under its own terms and bills you for the events shown on the Actor page.
+
+4. Requests to websites
+The Actor identifies itself in its User-Agent (LeonS-Monitor/1.0, with the address https://github.com/leons0016/ADApps), respects robots.txt unless you switch that off for a site you own or have permission to audit, waits between requests, and never logs in, fills in forms or solves CAPTCHAs. You are responsible for the websites you choose to crawl.
+
+5. Sample files
+The prefilled example input audits five synthetic sample files that the publisher hosts in the public repository github.com/leons0016/ADApps (folder samples/doca11y). They contain no personal data.
+
+6. Third-party software
+PDF/UA validation uses veraPDF (https://verapdf.org), an unmodified separate program under the Mozilla Public License 2.0. Other components are listed in the source of the Actor.
+
+7. Retention and deletion
+Downloaded documents are removed after each audit. Results and history stay in your account until you delete the datasets, the key-value store leons-doca11y-state and your tasks. Run datasets follow the retention rules of your Apify plan.
+
+8. Questions
+Write to atulhritik@hotmail.com.

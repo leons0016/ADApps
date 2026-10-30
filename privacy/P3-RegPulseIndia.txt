@@ -1,0 +1,30 @@
+RegPulse India - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+Applies to the Apify Actor "RBI, SEBI, GST, DGFT & IFSCA Circulars Monitor - RegPulse India".
+
+This text is published at
+https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P3-RegPulseIndia.txt
+
+1. What RegPulse India is
+RegPulse India is an Apify Actor. It runs inside your own Apify account, reads public circulars, notifications and notices published by Indian regulators and authorities, and delivers the new ones to you on your schedule. IFSCA and CBIC (GST) are read by default. RBI, SEBI and DGFT are read only if you switch on the option "Allow sources that ask for permission".
+
+2. What data is processed
+- Your input: regulators, document types, filters, dates and, if you set them, a webhook address and a Slack webhook address (the Slack address is stored as a secret and is never written to logs, datasets or reports).
+- Public documents of the regulators: reference number, date, title, department, the entities a notice is addressed to (not for RBI), links, a hash of the document, rule-based tags, and, only if you ask for it, the extracted text of the document (never for RBI). Documents such as orders can name persons or companies; orders are off by default. The data comes from public notices.
+- A state record in a key-value store named leons-regpulse-state in your account. It holds identifiers, hashes and dates of items already delivered, not document text.
+
+3. What the publisher receives
+The publisher does not receive your input, your results or your history, and operates no server for this Actor. Apify, as the platform, processes your account data under its own terms and bills you for the events shown on the Actor page. If you set a webhook or Slack address, the run summary and the delivered items are sent to that address, which you control.
+
+4. Requests to websites
+The Actor identifies itself in its User-Agent (LeonS-Monitor/1.0, with the address https://github.com/leons0016/ADApps), obeys robots.txt, sends at most one request per second to a host, and never logs in, fills in forms or solves CAPTCHAs.
+
+5. Retention and deletion
+Results and history stay in your account until you delete the datasets, the key-value store leons-regpulse-state and your tasks. Run datasets follow the retention rules of your Apify plan.
+
+6. Not affiliated
+RegPulse India is not affiliated with or endorsed by any regulator. Data from public notices; verify with the original document.
+
+7. Questions and removal requests
+Write to atulhritik@hotmail.com.
