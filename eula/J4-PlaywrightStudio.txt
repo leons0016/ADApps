@@ -1,17 +1,17 @@
-END USER LICENCE AGREEMENT - Test Studio for Playwright and Studio Plus for Playwright (JetBrains IDE plugins)
+END USER LICENCE AGREEMENT - Tracelark and Tracelark Plus (JetBrains IDE plugins)
 
 Vendor: LeonS
 Contact: atulhritik@hotmail.com
 Effective date: 2026-10-25
 Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/eula/J4-PlaywrightStudio.txt
 
-By installing or using Test Studio for Playwright or Studio Plus for Playwright (together, the "Software") you agree to this agreement.
+By installing or using Tracelark or Tracelark Plus (together, the "Software") you agree to this agreement.
 If you do not agree, do not install or use the Software.
 
 1. Definitions
-"Vendor" means LeonS. "Free Features" are the features of Test Studio for Playwright that need no licence. "Pro" means the paid
-features of Test Studio for Playwright unlocked by the Pro licence (Marketplace product code PPWSTUDIO). "Plus" means the optional paid
-features unlocked by the Studio Plus for Playwright add-on (Marketplace product code PPWSTUDIOPLUS). "Marketplace" means JetBrains
+"Vendor" means LeonS. "Free Features" are the features of Tracelark that need no licence. "Pro" means the paid
+features of Tracelark unlocked by the Pro licence (Marketplace product code PPWSTUDIO). "Plus" means the optional paid
+features unlocked by the Tracelark Plus add-on (Marketplace product code PPWSTUDIOPLUS). "Marketplace" means JetBrains
 Marketplace.
 
 2. Licence grant

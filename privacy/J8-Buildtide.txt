@@ -1,0 +1,68 @@
+PRIVACY POLICY - Buildtide and Buildtide Plus (JetBrains IDE plugins)
+
+Vendor: LeonS
+Contact: atulhritik@hotmail.com
+Effective date: 2026-10-30
+Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J8-Buildtide.txt
+
+1. Summary
+
+Buildtide and Buildtide Plus work on your computer. They do not collect or transmit any data. They have no accounts, no analytics, no
+advertising, no telemetry and make no network connection of their own. The timings of your builds stay in one file on your computer.
+
+2. What the plugins do with your data
+
+- Buildtide listens to the build events that the IDE itself produces when you run or sync a Gradle or Maven project (task and goal names,
+  start and end times, success or failure, the project name). For Gradle runs it also reads the console text of the run in memory, only
+  to find a small set of cache messages (for example "Configuration cache entry reused", "FROM-CACHE" and Gradle's "actionable tasks"
+  summary line). The console text is not stored; only the result of that search (a few numbers and, for a configuration cache miss, the
+  reason sentence that Gradle printed, up to 240 characters) is kept.
+- Per run Buildtide stores: the tool (Gradle, Maven, other), sync or build, the title of the run (for example the tasks you asked for),
+  the IDE project name, a short one-way hash of the project location (the path itself is not stored), start time, duration, result, and for
+  the longest steps their names, module names, times and results. It does not store source code, file contents, environment variables,
+  command lines or passwords.
+- Buildtide Plus reads the stored runs to show history, trends and cache numbers and to detect slower tasks. When you choose "Export Build
+  Report" it writes a Markdown or HTML file to the place you choose. The report contains project names, task and module names, times and
+  the cache numbers. Buildtide removes absolute file paths from the cache reasons, but titles of runs and task names are written as the IDE
+  reports them, so read a report before you share it. Where it is saved and with whom you share it is your choice.
+- The plugins contain no analytics library, no crash-reporting service and no "check for updates" call.
+
+3. Data stored on your computer
+
+- The ledger file "buildtide/ledger.jsonl" in the system folder of your IDE (the folder the IDE uses for caches and logs). It is plain
+  text, you can open it, and you can delete it from the Buildtide tool window ("Clear Recorded Builds") or from Settings | Tools |
+  Buildtide. The number of runs and days that are kept can be set (default 2000 runs and 365 days); runs older than 14 days keep only
+  their 20 longest steps.
+- Application settings in the IDE configuration folder (options/buildtide.xml and options/buildtide-plus.xml): recording switches,
+  retention numbers, alert thresholds, and the identifiers of the regressions already announced.
+Uninstalling the plugins does not delete the ledger file. Delete it first if you want it gone.
+
+4. Licences and purchases
+
+Sales, payments, invoices, taxes and licence keys are handled by JetBrains Marketplace under JetBrains' own terms and privacy policy.
+The plugins only read the signed licence confirmation that the IDE already holds, through the official IDE licensing API, and check its
+signature locally. They do not send licence information anywhere. The vendor receives sales reports from JetBrains but does not receive
+your personal data from the plugins.
+
+5. Error reports
+
+If the IDE shows an error from a plugin you may choose "Report by Email". This only opens your own mail client with a draft that contains
+the plugin name and version, the stack trace and any text you typed, with operating-system user names removed from paths. Nothing is
+sent unless you send the email yourself, and you can edit or delete the draft first.
+
+6. Children
+
+The plugins are developer tools and are not directed at children.
+
+7. Your rights
+
+Because the vendor does not receive personal data from the plugins, there is no personal data to access, correct or delete. If you sent
+the vendor an email, you can ask for your email to be deleted by writing to the contact address above.
+
+8. Changes
+
+If this policy changes, the new version will be published at the URL above with a new effective date.
+
+9. Contact
+
+Questions about this policy: atulhritik@hotmail.com

@@ -1,4 +1,4 @@
-# Test Studio for Playwright - help
+# Tracelark - help
 
 Independent plugin that works with Playwright. Not affiliated with or endorsed by Microsoft. Playwright is a trademark of Microsoft.
 Vendor: LeonS. Support: atulhritik@hotmail.com
@@ -73,7 +73,7 @@ in its own tab and is stopped when you press Stop, close the project or unload t
 * **Debug in IDE** (Pro): the IDE's Node.js debugger runs `cli.js` with `--workers=1 --timeout=0 --headed`; breakpoints in test code stop. Available in IDEs with the
   Node.js plugin (WebStorm, IntelliJ IDEA with the JavaScript plugin).
 
-## Settings (Settings > Tools > Test Studio for Playwright)
+## Settings (Settings > Tools > Tracelark)
 
 Node interpreter, package manager, Python interpreter, dev server command and URL, gutter icons (Automatic turns them off when the IDE has its own Playwright run markers),
 watch debounce (300-5000 ms), discovery timeout (10-900 s), licence status.

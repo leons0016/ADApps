@@ -1,4 +1,4 @@
-PRIVACY POLICY - Test Studio for Playwright and Studio Plus for Playwright (JetBrains IDE plugins)
+PRIVACY POLICY - Tracelark and Tracelark Plus (JetBrains IDE plugins)
 
 Vendor: LeonS
 Contact: atulhritik@hotmail.com
@@ -7,7 +7,7 @@ Public URL: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/J4-P
 
 1. Summary
 
-Test Studio for Playwright runs entirely inside your JetBrains IDE and on your own computer. It does not collect, store or transmit
+Tracelark runs entirely inside your JetBrains IDE and on your own computer. It does not collect, store or transmit
 personal data or source code to the vendor or to any third party. It has no accounts, no analytics, no advertising and no telemetry.
 
 2. What the plugins do with your data
