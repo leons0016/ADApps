@@ -1,0 +1,25 @@
+Outproof End User Licence Agreement
+
+Publisher: LeonS, India. Contact: atulhritik@hotmail.com. Effective 31 October 2026.
+
+1. Licence. LeonS grants you a non-exclusive, non-transferable licence to install and use Outproof on the computers you use with your own Autodesk account, for your own or your employer's design, documentation and BIM-management work.
+
+2. Trial, purchase and add-on. Outproof works fully for 24 hours from first start. After that, a one-time purchase on the Autodesk App Store unlocks all main features (export setups, pre-flight report, verification of an exported IFC file) permanently for the purchasing Autodesk account, for the supported Revit versions listed on the store. The optional add-on is a separate monthly subscription on the Autodesk App Store; it unlocks the add-on features (IFC-to-IFC comparison, CSV and XLSX reports, saved verification history) only while the subscription is active. Prices, taxes and payments are handled by the Autodesk App Store and its terms.
+
+3. Your work stays yours. Reports you save, setup files you export and the IFC files you create belong to you and keep working without Outproof. Without a valid licence Outproof will not run its checks.
+
+4. What Outproof does and does not do. Outproof does not write IFC files itself. The "Export now" button calls Revit's own IFC exporter with the options of the chosen setup. Outproof reads your model and the IFC file you choose and reports what it finds. The only change it makes to a model is a short note of the setup the model uses. Its findings, including the prediction of which elements become BREP and the reconciliation of an IFC file with a model, are aids and screening results, not a guarantee that an IFC file is correct, complete or accepted by a receiver. You are responsible for checking your deliverables, for contractual IFC requirements and for keeping a backup of your projects.
+
+5. Restrictions. You may not copy the software except as needed for backup, reverse engineer or modify it, remove licence checks, or share your purchase with other accounts.
+
+6. Updates and support. Updates are delivered through the Autodesk App Store. Support is provided by email at atulhritik@hotmail.com on a reasonable-efforts basis.
+
+7. Disclaimer. Outproof is provided "as is", without warranties of any kind. It reads models and IFC files through the Revit API and its own file reader; Revit and the IFC exporter may behave differently between versions and projects. Outproof does not guarantee that an IFC file conforms to the IFC schema, to a model view definition, to a company, client or national standard, or to any contract.
+
+8. Limitation of liability. To the extent permitted by law, LeonS is not liable for indirect or consequential loss, including loss of data or project time arising from the use of Outproof or from reliance on its reports, and its total liability is limited to the amount you paid for Outproof in the 12 months before the claim.
+
+9. Trademarks. Autodesk and Revit are trademarks of Autodesk, Inc. IFC and buildingSMART are marks of buildingSMART International Limited. Outproof is an independent product of LeonS and is not affiliated with or endorsed by them.
+
+10. Termination. The licence ends if you breach this agreement. You may stop using Outproof at any time by uninstalling it.
+
+11. Governing law. The laws of India apply, with courts in India having jurisdiction, unless your local consumer law requires otherwise.
