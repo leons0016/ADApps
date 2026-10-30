@@ -1,0 +1,11 @@
+FreightSurcharge Watch - End User Terms
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+
+1. FreightSurcharge Watch records the weekly U.S. diesel price published by the U.S. Energy Information Administration (EIA) and the fuel surcharge, rate-increase and fee figures found on pages and PDF tariffs that you list. It keeps a dated record of changes in your Apify account. The figures are copies of what those pages showed when the Actor read them. They are not rate advice, not a quotation, and they do not replace your carrier contract, tariff or invoice. The EIA diesel price is an index, not a carrier's own surcharge percentage.
+2. The Actor can miss changes: a page may change twice between two runs, a site may refuse the request, a page may be built by JavaScript, a PDF may be a scan without text, and the rule-based reading of rate lines can mistake a line or miss one. A run reports sources it could not read as blocked or failed with the reason. You are responsible for decisions and accruals you base on the results.
+3. The Actor is provided as is, without warranty of availability of any site or of completeness of the data. FreightSurcharge Watch is not affiliated with or endorsed by any carrier or by the EIA.
+4. You pay for events as shown on the Actor page. Your bill is at most the number of sources times the number of runs times the price of source-checked, plus the rate-change-detected and weekly-digest events of the runs. The publisher is not liable for losses arising from use of the Actor beyond the amount you paid for the run concerned, to the extent the law allows.
+5. You may only list pages and documents you are entitled to read and to keep a record of, and you must follow the terms of use of the sites you list. Some carrier sites forbid automated access or commercial use of their content in their terms; listing such a site is your decision and your responsibility. The Actor does not read an address that robots.txt disallows, does not log in, does not solve captchas and does not try to get around a refusal. Do not publish or resell the records of a site whose terms forbid it.
+6. EIA data is published by the U.S. government in the public domain. Rows built from it carry the acknowledgment "Source: U.S. Energy Information Administration"; keep it when you reuse them.
+7. Questions: atulhritik@hotmail.com

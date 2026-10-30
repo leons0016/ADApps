@@ -1,0 +1,29 @@
+StatusLedger - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+Applies to the Apify Actor "Status Page Monitor - StatusLedger".
+Public address of this text: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P6-StatusLedger.txt
+
+1. What the Actor processes
+- Public status information that vendors publish on their own status pages: page and component names and states, incident titles, severity, start and end times and the text of incident updates.
+- The data you give the Actor: your list of status pages, your settings (look-back, SLA basis and credit tiers, vendor names and monthly fees you enter) and, if you set them, a webhook address and a Slack webhook address.
+- The Actor does not collect personal data about people. Incident texts are written by the vendors; if a vendor puts a person's name in an update, it is copied as published.
+
+2. Where the data lives
+- Your input, results and ledger stay in your own Apify account: the run's dataset and key-value store, and the named key-value store "leons-statusledger-<ledger name>-ledger". The publisher does not receive them and runs no server that stores them.
+
+3. Retention
+- The ledger is kept until you delete the named store. Nothing is deleted by the Actor, because the ledger is meant to be a permanent record. Datasets and key-value stores of runs follow the retention rules of your Apify plan.
+
+4. Billing and processors
+- Apify bills you and acts as the processor for billing and for running the Actor. The Actor has no payment or account data of its own.
+
+5. Sources, politeness and secrets
+- The Actor reads public status pages only, checks robots.txt for every host and never requests an address that robots.txt disallows, identifies itself in its User-Agent, does not log in, does not solve CAPTCHAs, and uses no browser and no proxy.
+- The webhook and Slack webhook addresses are stored as secret input and are never written to logs, datasets or reports.
+
+6. Purpose and legal note
+- The data is used to record vendor incidents and to estimate monthly uptime. The figures are estimates from what vendors published and are not a contractual measurement or legal advice.
+
+7. Your rights and questions
+- Write to atulhritik@hotmail.com to ask about this policy or to report a data problem.

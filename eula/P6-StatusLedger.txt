@@ -1,0 +1,10 @@
+StatusLedger - End User Terms
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+
+1. StatusLedger reports what vendors publish on their own public status pages and keeps a record of it in your Apify account. Uptime, downtime and credit figures are estimates built from those pages. They are not a contractual measurement, not legal or financial advice, and they do not replace your contract or the vendor's own records.
+2. The Actor can miss incidents that a vendor never publishes, that disappear from the vendor's public list between two runs, or that fall outside the history a public endpoint offers. Severity is shown only where the platform publishes it. You are responsible for decisions and claims you base on the results.
+3. The Actor is provided as is, without warranty of availability of any status page or of completeness of the data. StatusLedger is not affiliated with or endorsed by any vendor whose status page it reads.
+4. You pay for events as shown on the Actor page. Your bill is at most the number of status pages times the number of runs times the price of vendor-checked, plus the incident-recorded and monthly-sla-report events of the run. The publisher is not liable for losses arising from use of the Actor beyond the amount you paid for the run concerned, to the extent the law allows.
+5. You may only list status pages you are entitled to read, and you must follow the terms of the vendors whose pages you list. The Actor does not read an address that robots.txt disallows.
+6. Questions: atulhritik@hotmail.com

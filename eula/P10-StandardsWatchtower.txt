@@ -1,0 +1,11 @@
+Standards Watchtower - End User Terms
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+
+1. Standards Watchtower reports the stage and the dates that a standards body publishes as metadata about its documents, and keeps the last known stage in your Apify account so that it can tell you what changed. It reports metadata only. It does not provide, read or store the text of any standard, and a row is not a copy of a standard.
+2. The Actor currently covers ISO and ISO joint publications, using the ISO Open Data file (ODC Attribution License v1.0). This work is based on the iso_deliverables_metadata dataset from ISO Open Data. IEC, CEN/CENELEC, BSI, DIN and ASTM are not covered; a line for one of them is answered with a blocked row that gives the reason. Standards Watchtower is not affiliated with or endorsed by ISO or any other standards body.
+3. The stage information is what the standards body published at the time of the run. It can lag behind the body's own systems (the open data file is updated daily), can omit projects that are not public, and is not legal advice. It does not replace the standards body's own record or the advice of your notified body or regulator. You are responsible for the decisions you base on the results.
+4. The Actor is provided as is, without warranty of availability of the source or of completeness of the data. The first run of a designation records a baseline and reports no change.
+5. You pay for events as shown on the Actor page. Your bill is at most the number of designations times the number of runs times the price of standard_checked, plus the stage_change event for each designation whose stage changed. Lines that cannot be looked up are not charged. The publisher is not liable for losses arising from use of the Actor beyond the amount you paid for the run concerned, to the extent the law allows.
+6. You may not use the Actor to obtain, republish or process the text of standards, or use the results for machine learning or AI training in breach of the source's terms. You must follow the terms of the standards body whose data you receive, including its attribution requirement.
+7. Questions: atulhritik@hotmail.com

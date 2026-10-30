@@ -1,0 +1,29 @@
+FreightSurcharge Watch - Privacy Policy
+Publisher: LeonS
+Contact: atulhritik@hotmail.com
+Applies to the Apify Actor "Freight Surcharge Monitor - FreightSurcharge Watch".
+Public address of this text: https://raw.githubusercontent.com/leons0016/ADApps/main/privacy/P8-FreightSurchargeWatch.txt
+
+1. What the Actor processes
+- Public price information: the weekly U.S. diesel price table of the U.S. Energy Information Administration, and the text of the pages and PDF tariffs whose addresses you list (percentages, amounts, dates and the lines around them).
+- The data you give the Actor: your list of addresses and labels, keywords, ignore patterns, limits and, if you set them, a webhook address and a Slack webhook address.
+- The Actor does not collect personal data about people. If a page you list contains a person's name, it can appear in a line that is copied as published.
+
+2. Where the data lives
+- Your input, results and ledger stay in your own Apify account: the run's dataset and key-value store, and the named key-value store "leons-freightsurcharge-<ledger name>-ledger". The publisher does not receive them and runs no server that stores them. The ledger holds, per document, short fingerprints and the rate lines found, not a full copy of the page.
+
+3. Retention
+- The ledger is kept until you delete the named store. Nothing is deleted by the Actor, because the ledger is meant to be a permanent record. Datasets and key-value stores of runs follow the retention rules of your Apify plan.
+
+4. Billing and processors
+- Apify bills you and acts as the processor for billing and for running the Actor. The Actor has no payment or account data of its own.
+
+5. Sources, politeness and secrets
+- The Actor sends plain HTTPS requests, checks robots.txt for every host and never requests an address that robots.txt disallows, identifies itself in its User-Agent, does not log in, does not solve captchas, and uses no browser and no proxy. A site that refuses the request is reported as blocked and is not retried in another way.
+- The Slack webhook address is stored as secret input and is never written to logs, datasets or reports.
+
+6. Purpose and legal note
+- The data is used to record changes of freight fuel surcharges and fees. The figures are copies of what the sources showed and are not rate advice.
+
+7. Your rights and questions
+- Write to atulhritik@hotmail.com to ask about this policy or to report a data problem.
